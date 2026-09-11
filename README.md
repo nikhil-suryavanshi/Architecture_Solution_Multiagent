@@ -32,7 +32,7 @@ npm run dev
 
 Open `http://localhost:3000`.
 
-If `OPENAI_API_KEY` is not configured, the application runs in deterministic mock mode so the orchestration and PDF flow can be demonstrated locally. A key entered in the form is used only for that request and is not persisted.
+If `OPENAI_API_KEY` is not configured, the application runs in deterministic mock mode so the orchestration and PDF flow can be demonstrated locally. The ArcGate-style sidebar includes sample briefs, industry/scale selectors, architecture-style choices, constraints, existing systems, and an OpenAI key field. A key entered in the form is kept in this browser's local storage and sent only with generation requests; it is never stored in a run record or PDF.
 
 ## API
 
